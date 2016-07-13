@@ -1,8 +1,6 @@
 # Chirpd ✞
 ## The Online Church Platform for Invocation, Respect, Prayer and Devotion 
 
-**Free Software for Churches: **Online Faith-Building Platform for Worshippers, Communities, and God
-
 ## About Our Project
 
 This project was born out of prayer facing the continued danger of the church becoming irrelevant.  I don’t see you all on Sunday mornings, but it’s not because you’re against God. It’s because your digital life moves too quickly. 
