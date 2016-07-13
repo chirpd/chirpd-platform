@@ -16,7 +16,7 @@ We welcome feedback on this project. Please email me at fathertomhomeemail@gmail
 
 ## Quick install
 
-1. [Download](https://github.com/chirpd/chirpd-core-platform/archive/master.zip) the Church Deploy core
+1. [Download](https://github.com/chirpd/chirpd-core-platform/archive/master.zip) the Church chirpd core
 3. Start a server using something like [MAMP](http://www.mamp.info/en/index.html)
 4. Connect to MAMP MySQL using something like [Sequel Pro](http://www.sequelpro.com/) and create a database with any name.
 5. Visit your new server homepage and follow the on-screen installation instructions.
@@ -63,7 +63,7 @@ Any of the commands can be run without the `&`. For example
 
 ## Bug tracker
 
-Have a bug? Please create an [issue](https://github.com/churchdeploy/churchdeploy/issues) here on GitHub that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines).
+Have a bug? Please create an [issue](https://github.com/chirpd/chirpd/issues) here on GitHub that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines).
 
 ## Components
 
@@ -145,7 +145,7 @@ This will update *Structure > Status > ustream-status*
 
 ## Walkthrough
 
-We make no assumptions about how you will use Church Deploy. It is up to you to craft whatever solution is best for your use-case. We are doing our best to keep the core robust and controllable, so you can enable or disable different components.
+We make no assumptions about how you will use Church chirpd. It is up to you to craft whatever solution is best for your use-case. We are doing our best to keep the core robust and controllable, so you can enable or disable different components.
 
 ## Features
 
@@ -170,11 +170,11 @@ We make no assumptions about how you will use Church Deploy. It is up to you to 
 Use the example organization [`anchorchurch`](https://github.com/anchorchurch), which consists of two projects ..
 
 1. [`anchor`](https://github.com/anchorchurch/anchor) *theme* — a custom theme bundle (similar to a WordPress theme) for a church we made up for example purposes only.
-2. [`churchdeploy`](https://github.com/anchorchurch/churchdeploy) *fork*  — a fork of [`churchdeploy`](https://github.com/churchdeploy/churchdeploy) with the above `anchor` project added as a [submodule](http://symphonyextensions.com/articles/on-git-submodules/) to the path `workspace/themes/active`. Forking the project and adding your theme will enable you to push updates by installing git via SSH on your server and using `git pull` to update your live site.
+2. [`chirpd`](https://github.com/anchorchurch/chirpd) *fork*  — a fork of [`chirpd`](https://github.com/chirpd/chirpd) with the above `anchor` project added as a [submodule](http://symphonyextensions.com/articles/on-git-submodules/) to the path `workspace/themes/active`. Forking the project and adding your theme will enable you to push updates by installing git via SSH on your server and using `git pull` to update your live site.
 
-You can update your local `churchdeploy` fork using the following commands ..
+You can update your local `chirpd` fork using the following commands ..
 
-	git remote add upstream https://github.com/churchdeploy/churchdeploy.git
+	git remote add upstream https://github.com/chirpd/chirpd.git
 	git fetch upstream
 	git merge upstream/master
 	git push
@@ -192,16 +192,3 @@ You can update your local `churchdeploy` fork using the following commands ..
 	- Local server: [MAMP Pro](http://www.mamp.info/en/mamp-pro/index.html) - MAMP is free, pro is $59.00 (we recommend pro)
 	- MySQL: [Sequel Pro](http://www.sequelpro.com/) - Donationware
 	- Code editor: [Sublime 2](http://www.sublimetext.com/2) - Free demo, $59.00 to buy
-	- FTP: [Transmit](http://panic.com/transmit/)
-
-## More
-
-We use the term `component` for a Church Deploy object (in Symphony, objects are called *sections*). All Church Deploy components have a template XSL file, which lives in the *workspace/themes/yourtheme* directory, with its component name.
-
-We made an out of the box template for you to work from called [anchor](https://github.com/anchorchurch/anchor) in which we use the name "Anchor Church." Church Deloy will use whatever theme that you title `active`. So if you want to switch templates, simply go to the templates directory and change the folder name. Church Deploy is designed to have all of the core functionalty in the parent project and let your theme template files only make the changes that are unique to your installation, but it isn't limiting in the least.
-
-All of the components we used are free for you to use with Church Deploy as it is a combination of open-source projects. Thank you open source community!
-
-Please write [kirk@strobeck.com](mailto:kirk@strobeck.com), IM kirkstrobeck on AIM/Skype, or call (503) 427-8050 if you have any questions.
-
-**We can't wait to see how you use Church Deploy**

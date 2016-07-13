@@ -39,7 +39,7 @@
 				'name' => 'Events: Recurring: Entries by tag',
 				'author' => array(
 					'name' => 'Brian Zerangue',
-					'website' => 'http://churchdeploy.site',
+					'website' => 'http://chirpd.site',
 					'email' => 'brian.zerangue@gmail.com'),
 				'version' => 'Symphony 2.3.2',
 				'release-date' => '2013-07-24T10:44:40+00:00'

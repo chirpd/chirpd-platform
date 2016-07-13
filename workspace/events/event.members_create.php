@@ -15,8 +15,8 @@
 				'name' => 'members: Create',
 				'author' => array(
 					'name' => 'Admin Admin',
-					'website' => 'http://churchdeploy',
-					'email' => 'noreply@churchdeploy.com'),
+					'website' => 'http://chirpd',
+					'email' => 'noreply@chirpd.com'),
 				'version' => 'Symphony 2.2.4',
 				'release-date' => '2011-11-02T08:40:24+00:00',
 				'trigger-condition' => 'action[members-create]'
@@ -95,7 +95,7 @@
         <p>To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:</p>
         <pre class="XML"><code>&lt;input name="id" type="hidden" value="23" /></code></pre>
         <p>To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:</p>
-        <pre class="XML"><code>&lt;input name="redirect" type="hidden" value="http://churchdeploy/success/" /></code></pre>';
+        <pre class="XML"><code>&lt;input name="redirect" type="hidden" value="http://chirpd/success/" /></code></pre>';
 		}
 
 		public function load(){

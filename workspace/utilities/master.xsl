@@ -96,7 +96,7 @@
 
 <xsl:template name="template-header-main">
 	<head>
-		<xsl:comment>This is an installation of ChurchDeploy.com — The mission of The Chirpd Platform is to build, as a community, the best church website framework possible and give it away, free of charge.</xsl:comment>
+		<xsl:comment>This is an installation of chirpd.com — The mission of The Chirpd Platform is to build, as a community, the best church website framework possible and give it away, free of charge.</xsl:comment>
 		<xsl:variable name="page-title">
 			<xsl:if test="string-length($pt1)">
 				<xsl:for-each select="/data/tags-all-entries/entry[@id = $pt1]">

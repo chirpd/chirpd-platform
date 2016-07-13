@@ -17,7 +17,7 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 
 ## Key branches
 
-- `master` is the latest, deployed version.
+- `master` is the latest, chirpded version.
 - `gh-pages` is the hosted docs (not to be used for pull requests).
 - `*-wip` is the official work in progress branch for the next release.
 

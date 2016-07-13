@@ -34,7 +34,7 @@ Click on the `Save Install Files` on the `System > Preferences` page to update a
 - `install/includes/install.sql`
 - `workspace/install.sql`
 
-By saving your install files it is possible to manually create an ensemble or manage an installable Git repository of your Symphony site. A Git workflow could involve updating and committing the install files to the repository every time there are changes to the structure or data. Or when the site is completed, the install files could be saved to prepare the site to deploy to the production server, for sharing with a development team or for open source distribution, for example. (If deploying to a server, use in combination with the Dump DB extension if you would like to include author data with your project repository, as Symphony author data will not be included in an ensemble.)
+By saving your install files it is possible to manually create an ensemble or manage an installable Git repository of your Symphony site. A Git workflow could involve updating and committing the install files to the repository every time there are changes to the structure or data. Or when the site is completed, the install files could be saved to prepare the site to chirpd to the production server, for sharing with a development team or for open source distribution, for example. (If chirpding to a server, use in combination with the Dump DB extension if you would like to include author data with your project repository, as Symphony author data will not be included in an ensemble.)
 
 ### Download ZIP
 
