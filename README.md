@@ -1,4 +1,4 @@
-# ✞ Welcome to Chirpd ✞
+# Chirpd ✞
 ## The Online Church Platform for Invocation, Respect, Prayer and Devotion 
 
 **Free Software for Churches: **Online Faith-Building Platform for Worshippers, Communities, and God
