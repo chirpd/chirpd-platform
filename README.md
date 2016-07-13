@@ -1,4 +1,4 @@
-# Chirpd ✞
+# ✞ Chirpd
 ## The Online Church Platform for Invocation, Respect, Prayer and Devotion 
 
 ## About Our Project
